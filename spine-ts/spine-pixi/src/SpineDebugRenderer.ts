@@ -143,11 +143,11 @@ export class SpineDebugRenderer implements ISpineDebugRenderer {
 			},
 		};
 
-		debugDisplayObjects.parentDebugContainer.addChild(debugDisplayObjects.bones);
-		debugDisplayObjects.parentDebugContainer.addChild(debugDisplayObjects.skeletonXY);
-		debugDisplayObjects.parentDebugContainer.addChild(debugDisplayObjects.regionAttachmentsShape);
-		debugDisplayObjects.parentDebugContainer.addChild(debugDisplayObjects.meshTrianglesLine);
-		debugDisplayObjects.parentDebugContainer.addChild(debugDisplayObjects.meshHullLine);
+		// debugDisplayObjects.parentDebugContainer.addChild(debugDisplayObjects.bones);
+		// debugDisplayObjects.parentDebugContainer.addChild(debugDisplayObjects.skeletonXY);
+		// debugDisplayObjects.parentDebugContainer.addChild(debugDisplayObjects.regionAttachmentsShape);
+		// debugDisplayObjects.parentDebugContainer.addChild(debugDisplayObjects.meshTrianglesLine);
+		// debugDisplayObjects.parentDebugContainer.addChild(debugDisplayObjects.meshHullLine);
 		debugDisplayObjects.parentDebugContainer.addChild(debugDisplayObjects.clippingPolygon);
 		debugDisplayObjects.parentDebugContainer.addChild(debugDisplayObjects.boundingBoxesRect);
 		debugDisplayObjects.parentDebugContainer.addChild(debugDisplayObjects.boundingBoxesCircle);

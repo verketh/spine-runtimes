@@ -41,7 +41,7 @@ export class SkeletonClipping {
 	private scratch = new Array<number>();
 
 	private clipAttachment: ClippingAttachment | null = null;
-	private clippingPolygons: Array<Array<number>> | null = null;
+	public clippingPolygons: Array<Array<number>> | null = null;
 
 	clipStart (slot: Slot, clip: ClippingAttachment): number {
 		if (this.clipAttachment) return 0;
